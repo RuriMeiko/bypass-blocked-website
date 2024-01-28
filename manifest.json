@@ -1,0 +1,10 @@
+{
+	"manifest_version": 3,
+	"name": "Bypass Web",
+	"version": "1.0",
+	"description": "Bypass a web by using Google Trans",
+	"permissions": ["webNavigation", "activeTab"],
+	"background": {
+		"service_worker": "background.js"
+	}
+}
